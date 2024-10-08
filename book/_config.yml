@@ -34,8 +34,8 @@ sphinx:
     - sphinx.ext.extlinks
 
 repository:
-  url: https://excited-co2.github.io/workshop_tutorial
-  path_to_book: "book"  # A path to your book's folder, relative to the repository root.
+  url: https://github.com/EXCITED-CO2/workshop_tutorial
+  path_to_book: book  # A path to your book's folder, relative to the repository root.
   branch: main  # Which branch of the repository should be used when creating links
 
 bibtex_bibfiles: 
