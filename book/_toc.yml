@@ -4,7 +4,7 @@ root: intro.md
 parts:
   - caption: Contents
     chapters:
-    - file: some_content/overview.md
+    - file: sections/overview.md
       sections:
-      - file: some_content/text_and_code.ipynb
+      - file: sections/ARCO-ERA5.ipynb
     - file: references.md
