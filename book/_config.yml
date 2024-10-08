@@ -21,6 +21,7 @@ sphinx:
     html_theme_options:
       repository_url: "https://github.com/EXCITED-CO2/workshop_tutorial"
       repository_branch: main
+      path_to_docs: book
       use_repository_button: true
       use_issues_button : true
       launch_buttons:
@@ -37,7 +38,7 @@ sphinx:
 
 repository:
   url: https://github.com/EXCITED-CO2/workshop_tutorial
-  # path_to_book: book  # A path to your book's folder, relative to the repository root.
+  path_to_book: book  # A path to your book's folder, relative to the repository root.
   branch: main  # Which branch of the repository should be used when creating links
 
 bibtex_bibfiles: 
