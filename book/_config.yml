@@ -25,6 +25,7 @@ sphinx:
       use_issues_button : true
       launch_buttons:
         jupyterhub_url: https://aecfr.excited-exchang.src.surf-hosted.nl/
+        notebook_interface: "jupyterlab"
         thebe: false
     html_show_copyright: false
     html_last_updated_fmt: '%B %-d, %Y'
