@@ -9,7 +9,7 @@ only_build_toc_files: true
 
 html:
   # favicon : "figures/favicon.ico"
-  baseurl :  "https://excited-co2.github.io/workshop_tutorial/"
+  baseurl :  "https://excited-co2.github.io/workshop_tutorial"
 
 sphinx:
   config:
@@ -32,6 +32,11 @@ sphinx:
     - jupyterbook_patches
     - download_link_replacer
     - sphinx.ext.extlinks
+
+repository:
+  url: https://excited-co2.github.io/workshop_tutorial
+  path_to_book: "book"  # A path to your book's folder, relative to the repository root.
+  branch: main  # Which branch of the repository should be used when creating links
 
 bibtex_bibfiles: 
   - references.bib
