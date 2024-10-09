@@ -4,11 +4,11 @@
 An overwiew of the common cloud-optimised formats and the their advantages can be found [here](https://guide.cloudnativegeo.org/). In this book we will be focusing on Zarr format and how to use it. 
 
 ### Introduction to zarr
-Zarr is designed for data that is too big for users’ machines, but Zarr makes data small and organizes it in a way where users can take just the bits they need or distribute the load of processing lots of those bits (stored as chunks) across many machines.
+The Zarr data format is a community-maintained format for large n-dimensional data, which may be difficult to download to users’ machines. Zarr breaks up the data into smaller chunks and organizes it in a way where users can take just take the bits they need or distribute the load of processing to lots of those bits (stored as chunks) across many machines.
 
-The Zarr data format is a community-maintained format for large-scale n-dimensional data. A Zarr store consists of compressed and chunked n-dimensional arrays. Zarr’s flexible indexing and compatibility with object storage lends itself to parallel processing. More background information on Zarr and how to use it can be found [here](https://guide.cloudnativegeo.org/zarr/intro.html)
+The Zarr data format has been adopted by various groups, who have created [open datasets](https://zarr.dev/datasets/), including [CMIP6](https://console.cloud.google.com/marketplace/details/noaa-public/cmip6) & [ERA5](https://cloud.google.com/storage/docs/public-datasets/era5) data. 
 
-Zarr has been adopted by various groups, who have created [open datasets](https://zarr.dev/datasets/), including [CMIP6](https://console.cloud.google.com/marketplace/details/noaa-public/cmip6) & [ERA5](https://cloud.google.com/storage/docs/public-datasets/era5) data. 
+In this book we will introduce some of these public datasets and how to use Zarr with xarray. More background information on Zarr and how to use it can be found [here](https://guide.cloudnativegeo.org/zarr/intro.html)
 
 ## Tutorials in this book
 ### 1. [ARCO-ERA5](https://github.com/EXCITED-CO2/workshop_tutorial/blob/main/book/sections/FLUXNET2015.ipynb)

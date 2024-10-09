@@ -6,9 +6,9 @@ This book helps to explore tools and datasets, that are useful for researchers w
 The aim is for the concepts covered during the workshop to open the discussion on openess and reproducibility with the community and to introduce researchers to some useful tools and concepts that can be transfered to their research. 
 
 # Working with modern (cloud) data formats
-Geospatial data is experiencing exponential growth in both size and complexity. As a result, traditional data access methods, such as file downloads, have become increasingly impractical for achieving scientific objectives. With the limitations of these older methods becoming more apparent, cloud-optimized geospatial formats present a much-needed solution.
+Geospatial data are becoming increasingly large and complex and as a result, downloading data has become increasingly impractical. Cloud-optimized geospatial formats present an alternative to downloading data, that is more efficient, flexible and scalable. Additionally, it allows the user to more easily download subsets of data, rather than the entire dataset.
 
-Cloud optimization enables efficient, on-the-fly access to geospatial data. An overwiew of the common formats and the advantages of cloud-optimised formats can be found [here](https://guide.cloudnativegeo.org/)
+An overwiew of the common formats and the advantages of cloud-optimised formats can be found [here](https://guide.cloudnativegeo.org/)
 
 ## Zarr
 Currently, many datasets, such as FLUXNET are stored in CSV or netcdf/hdf5 formats, which need to be downloaded by the user from a database requiring an account. This process can be quite time consuming and make it difficult to replicate research if the version, variables used etc are not adequately documented. 
@@ -16,6 +16,8 @@ Currently, many datasets, such as FLUXNET are stored in CSV or netcdf/hdf5 forma
 ### Why use Zarr instead of formats such as CSV/TIFF
 
 Zarr format provides a clean library for accessing the internals of binary files, it also makes those internals themselves simple and transparent. Each n-dimensional chunk of data is given a name and placed in a separate file making it accessible without the need for a library and vastly improving parallelism.
+
+Zarr’s flexible indexing and compatibility with object storage lends itself to parallel processing. 
 
 An added benefit of the simplicity of Zarr is how tractable keeping your data FAIR and accessible in the long-term becomes. Though the bytes need decoding, a fair amount of the general structure needs no interpretation. 
 
