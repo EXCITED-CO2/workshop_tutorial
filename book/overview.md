@@ -28,4 +28,6 @@ In this section, [a Zarr store](https://github.com/EXCITED-CO2/zarr-fluxnet2015)
 
 ### 3. [Dask: lazy and distributed compute](lazy_computation.ipynb)
 
-Lazy computation and regridding using [xarray-regrid](https://github.com/xarray-contrib/xarray-regrid)
+ In the [EXCITED project](https://research-software-directory.org/projects/excited) we developed a tool to perform regridding in xarray, using lazy computation, which is a common operation in geosciences, either to reduce computation time or to aggregate data onto a common grid. Lazy computation is when you only load data and perform the computations once it is required, which reduces processing time and memory consumption.
+
+In this section, we use [xarray-regrid](https://github.com/xarray-contrib/xarray-regrid) to regrid sea surface temperatures as an example of lazy computation. 
