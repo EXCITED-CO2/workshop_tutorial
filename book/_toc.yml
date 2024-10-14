@@ -4,8 +4,8 @@ root: intro.md
 parts:
   - caption: Contents
     chapters:
-    - file: sections/overview.md
-      sections:
-      - file: sections/ARCO-ERA5.ipynb
-      - file: sections/FLUXNET2015.ipynb
+    - file: overview.md
+    - file: ARCO-ERA5.ipynb
+    - file: FLUXNET2015.ipynb
+    - file: lazy_computation.ipynb
     # - file: references.md
