@@ -1,5 +1,7 @@
 # Working with modern (cloud) data formats
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13935585.svg)](https://doi.org/10.5281/zenodo.13935585)
+
 ## A tutorial for 'Advancing ecosystem carbon flux research'
 
 This repository holds a jupyter book with a tutorial on modern cloud data formats; namely Zarr.
